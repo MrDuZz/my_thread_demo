@@ -1,11 +1,8 @@
-package cn.dpy.controller;
+package cn.dpy.thread.controller;
 
-import cn.dpy.service.AsyncService;
-import cn.dpy.service.controller.BaseController;
-import cn.dpy.service.controller.MessageResult;
+import cn.dpy.thread.service.AsyncService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.scheduling.annotation.Async;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,6 +33,12 @@ public class ThreadPoolController extends BaseController {
                 log.info("---->线程出现异常---->", e);
             }
         }
+        return success();
+    }
+
+    @RequestMapping(value = "myName", method = RequestMethod.POST)
+    public MessageResult test(String myName) {
+        log.info("myName={}", myName);
         return success();
     }
 

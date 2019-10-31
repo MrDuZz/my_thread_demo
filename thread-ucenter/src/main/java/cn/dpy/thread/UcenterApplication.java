@@ -1,4 +1,4 @@
-package cn.dpy;
+package cn.dpy.thread;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -15,7 +15,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 @SpringBootApplication
 @EnableScheduling
 @EnableAsync
-@ComponentScan(basePackages = "cn.dpy.*")
+@ComponentScan(basePackages = "cn.dpy.thread.*")
 public class UcenterApplication {
 
     public static void main(String[] args) {

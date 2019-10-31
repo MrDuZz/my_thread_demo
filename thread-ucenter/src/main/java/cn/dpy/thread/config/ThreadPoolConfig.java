@@ -1,4 +1,4 @@
-package cn.dpy.config;
+package cn.dpy.thread.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

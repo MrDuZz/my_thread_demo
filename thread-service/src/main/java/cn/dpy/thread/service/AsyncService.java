@@ -1,4 +1,4 @@
-package cn.dpy.service;
+package cn.dpy.thread.service;
 
 /**
  * @Author: dupinyan

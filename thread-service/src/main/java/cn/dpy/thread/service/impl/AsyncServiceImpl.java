@@ -1,6 +1,6 @@
-package cn.dpy.service.impl;
+package cn.dpy.thread.service.impl;
 
-import cn.dpy.service.AsyncService;
+import cn.dpy.thread.service.AsyncService;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 

@@ -1,4 +1,4 @@
-package cn.dpy.controller;
+package cn.dpy.thread.controller;
 
 
 import java.util.ArrayList;
